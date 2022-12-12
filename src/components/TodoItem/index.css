@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 10px;
+}
+.btn {
+  height: 28px;
+  width: 45px;
+  font-size: 10px;
+  border: 1px solid #ff0b37;
+  border-radius: 4px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    padding: 5px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .btn {
+    height: 35px;
+    width: 75px;
+    font-size: 15px;
+  }
+}
